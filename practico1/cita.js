@@ -14,21 +14,21 @@ let tamañoDeCita = cita.length;
 //siguiente formato:
 //“El tamaño de la cita es: [tamañoCita]”
 
-console.log(tamañoDeCita);
+console.log('El tamaño de cita es: ' + tamañoDeCita);
 
-//La consola me tira 44 del tamaño de Cita.
+//La consola me tira: El tamaño de cita es: 44
 
 //b. Busques la posición del índice donde aparece substring en cita, y
 //almacenes ese valor en una variable llamada indice. 
 
-let indice = cita.indexOf("tigres comen trigo");
+let indice = cita.indexOf(substring);
 
 //Deberás imprimir por consola un mensaje con el siguiente formato:
 //“El indice del substring es: [indice]”
 
-console.log(indice);
+console.log('El indice del substring es: ' + indice);
 
-//La posicion del indice donde aprece substring en cita es 13.
+//La consola me tira: El indice del substring es: 13
 
 //c. Usa una combinación de las variables que tienes y las
 //propiedades/métodos de cadena disponibles para recortar la cita original
