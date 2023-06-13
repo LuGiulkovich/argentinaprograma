@@ -43,6 +43,6 @@ console.log("Mis variables iniciales fueron: %i, %i, %i y %i.", var1, var2, var3
 
 //La respuesta a verificar si el resultado final es par es: [esPar]”
 
-console.log(esPar);
+console.log('La respuesta a verificar si el resultado final es par es: ' + esPar);
 
-//La consola me tira true
+//La consola me tira: La respuesta a verificar si el resultado final es par es: true
